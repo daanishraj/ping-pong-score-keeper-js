@@ -1,0 +1,63 @@
+body {
+    display:flex;
+    justify-content: center;
+    align-items: left;
+}
+
+h1 {
+    font-style: italic;
+    font-family: fantasy;
+}
+
+#scoreCard {
+    margin: 0;
+    font-size: 2em;
+}
+
+#allButtons {
+    padding:10px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.allButtons {
+    padding:5px;
+    border-radius:15px;
+}
+
+#button1 {
+    background-color: #F7B5AC;
+
+}
+
+#button2 {
+    background-color: #ACF7B5;
+}
+
+#resetButton{
+    background-color: #B5ACF7;
+}
+
+#games{
+    font-weight: bold;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+p {
+    font-size: 0.85em;
+    font-style: italic;
+    color: grey;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}

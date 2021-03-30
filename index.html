@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>ScoreKeeper - D's Effort</title>
+
+</head>
+
+<body>
+    <main>
+        <h1>Ping Pong Score Keeper</h1>
+        <img src="pingPong.jpeg">
+
+        <div>
+            <section id="scoreCard">
+                <span id="p1Score">0</span>
+                <span>to</span>
+                <span id="p2Score">0</span>
+            </section>
+
+
+            <p id="instructions">Use the buttons below to keep score</p>
+
+            <form>
+                <label for="numberOfGames" id="games">Best of how many games?</label>
+                <select name="numberOfGames" id="numberOfGames">
+                    <option value="5">5</option>
+                    <!-- <option value="6">6</option> -->
+                    <option value="7">7</option>
+                    <!-- <option value="8">8</option> -->
+                    <option value="9">9</option>
+                    <option value="10">11</option>
+                </select>
+            </form>
+
+            <div id="allButtons">
+                <button id="button1" class="allButtons playerButton" type="button">+1 Player One</button>
+                <button id="button2" class="allButtons playerButton" type="button">+1 Player Two</button>
+                <button id="resetButton" class="allButtons" type="button">Reset</button>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="app-v2.js"></script>
+</body>
+
+</html>
